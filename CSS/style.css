@@ -1,0 +1,163 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px/1.5;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(201, 201, 201);
+}
+
+
+/*GLOBAL*/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button-1 {
+    height: 30px;
+    background: orangered;
+    border: 0;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+
+
+/*HEADER*/
+
+header {
+    background-color: rgb(10, 10, 9);
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(255, 167, 3) 3px solid;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+footer .highlight,
+header .current a {
+    color: orange;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: cccccc;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+
+/*SHOWCASE*/
+
+#showcase {
+    min-height: 400px;
+    background: url(../IMAGES/web.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#showcase h1 {
+    margin: 100px 0 10px 0;
+    font-size: 55px;
+}
+
+#showcase p {
+    font-size: 30px;
+    color: orangered;
+    margin-top: 30px;
+}
+
+
+/*NEWSLETTER*/
+
+#newsletter {
+    padding: 15px;
+    color: white;
+    background: rgb(10, 10, 9);
+    min-height: 40px;
+}
+
+#newsletter h1 {
+    float: left;
+    font-size: 1.3em;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 10px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 30px;
+    width: 300px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 50%;
+    border: rgb(145, 95, 3) 2px solid;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    color: grey;
+}
+
+#map {
+    width: 70%;
+    height: auto;
+}
+
+
+/*page2*/
+
+.form {
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.form label {
+    margin: 0;
+}
